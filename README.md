@@ -44,3 +44,12 @@
 - **Посмотреть содержимое таблицы `countries`:**  
   SELECT * FROM countries;
 
+### 6. Тест запуск готовых запросов
+
+- Сотрудники и их работы http://localhost:3000/employees
+
+- Сотрудники и их менеджеры http://localhost:3000/employees/managers
+
+- Ранк по зарплате http://localhost:3000/employees/ranking
+
+- Индекс http://localhost:3000/employees/index
