@@ -2,18 +2,19 @@
 
 ## Установка и запуск
 ### 1. Установите Docker и Docker Compose
-- Скачайте и установите Docker [здесь](https://www.docker.com/get-started)
+- Скачайте и установите Docker
 - Убедитесь, что Docker работает командой:
 
-  docker --version
-  docker-compose --version
+  -docker --version
+
+  -docker-compose --version
 
 ---
 
 ### 2. Клонируйте репозиторий
 Выполните команды в терминале:
-git clone https://github.com/Mutanterf/HR-Project.git
-cd HR-Project
+  - git clone https://github.com/Mutanterf/HR-Project.git
+  - cd HR-Project
 
 ---
 
@@ -30,7 +31,7 @@ cd HR-Project
 ### 4. Подключение к базе данных PostgreSQL
 Чтобы войти в PostgreSQL через Docker, выполните команду:
 
-docker exec -it hr-project-db-1 psql -U postgres -d HR
+- docker exec -it hr-project-db-1 psql -U postgres -d HR
 
 ---
 
